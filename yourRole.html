@@ -1,0 +1,113 @@
+<!-- Eileen Kuang
+December 4, 2023
+Misinformation Website: Your Role
+Website that walks the user through what fake news is & what they can do about it -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Your Role</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="index.css" />
+
+  <!-- Google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Electrolize">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  
+  <style>
+    body {
+      font-family: 'Electrolize', sans-serif;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    h2 { /* rule for heading 2 color*/
+      color: white;
+    }
+
+    /* text containers */
+    .container {
+      width: 100%;
+      position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      gap: 5px;
+      flex-wrap: wrap; /* wrap across screen */
+    }
+
+    /* individual boxes that wrap across */
+    .box {
+      flex: 0 0 calc(33.3333% - 20px); 
+      background-color: darkred;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+  </style>
+</head>
+
+<!-- Navigation bar -->
+<body>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a class="active" href="yourRole.html">Your Role</a>
+    <a href="newsOrLose.html">News or Lose!</a>
+    <a href="sources.html">Sources</a>
+  </div>
+
+  <h1>
+    <br>
+    <br>
+    <br> Your Role
+    <br>
+    <br>
+    <br>
+    <br>
+  </h1>
+
+  <h2> What YOU can do about misinformation: </h2>
+
+  <!-- methods to recognize misinformation, in boxes -->
+  <div class="container">
+    <div class="box">
+      <h2> Fake News Hotspots </h2>
+      <p>Social media, magazines, and small new sites are all hotspots for the spread of misinformation! For example, fake news spreads 70% faster than real news does on Twitter.</p>
+    </div>
+    
+    <div class="box">
+      <h2> Recognize Red Flags </h2>
+      <p> 
+        - Bad grammar in an article
+        <br>
+        - Suspicious sites
+        <br>
+        - Lack of legitimate sources
+        <br>
+        - Sensational news that seems overly exaggerated, biased, or strange
+      </p>
+    </div>
+    
+    <div class="box">
+      <h2> Fact-check! </h2>
+      <p> Legitimate news sites will have legitimate sources! If only one news site is reporting on a major event, be skeptical. Beware of circular reporting, in which 2 or more fake news sites credit each other to paint the illusion of proper sources. </p>
+    </div>
+    
+    <div class="box">
+      <h2> Consider the Author's Agenda </h2>
+      <p>There are many people who stand to gain something by generating fake news.
+        Politicians who want exposure, small news sites that want more clicks, or
+        scammers that want to incite chaos and fear.  </p>
+    </div>
+  </div>
+
+  <p>
+    <br>
+    <br>
+  </p>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!-- Eileen Kuang
+December 4, 2023
+Misinformation Website: News Or Lose
+Website that walks the user through what fake news is & what they can do about it  -->
+
+<!DOCTYPE html>
+<html>
+
+<head> 
+	<title>Webpage</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="newsOrLose.css" />
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Electrolize" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <style>
+        body {
+            font-family: 'Electrolize', 'Raleway', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="yourRole.html">Your Role</a>
+        <a class="active" href="newsOrLose.html">News or Lose!</a>
+        <a href="sources.html">Sources</a>
+    </div>
+
+    <!-- toggling each container formatting -->
+    <style>
+        .container {
+            position: relative;
+            width: 50%;
+        }
+
+        .container1 {
+            position: relative;
+            width: 50%;
+        }
+
+        .container2 {
+            position: relative;
+            width: 50%;
+        }
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .6s ease;
+            backface-visibility: hidden;
+            a: center;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+        .container1:hover .image {
+            opacity: 0.3;
+        }
+
+        .container1:hover .middle {
+            opacity: 1;
+        }
+
+        .container2:hover .image {
+            opacity: 0.3;
+        }
+
+        .container2:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: #04AA6D;
+            color: white;
+            font-size: 16px;
+            padding: 20px 26px;
+        }
+    </style>
+
+    <h1>
+        <br>
+        <br>
+        Welcome to News or Lose!
+        <br>
+        <br>
+    </h1>
+
+    <h2>
+        <br>
+        Hover over each of these images to differentiate whether or not they are fake news.
+        Observe the sources, types of language, and buzzwords used to determine its accuracy! <br>
+    </h2>
+    <p>
+        When encountering real articles that may potentially be fake news, you may need to explore the webpage and
+        identify sources. This is just an exercise to see if you easily deduce fake news headlines or overly
+        sensational stories.
+        <br>
+    </p>
+
+    <div class="container">
+        <img src="trump.png" alt="Trump & Pope" class="image" style="width:100%; height: 100%">
+        <div class="middle">
+            <div class="text"> Lose; this is fake! </div>
+        </div>
+    </div>
+
+    <div class="container1">
+        <img src="obama.png" alt="Obama" class="image" style="width:100%; height: 100%">
+        <div class="middle">
+            <div class="text"> Lose; this is fake! </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <img src="kimjongun.png" alt="Kim Jongun" class="image" style="width:100%; height: 80%">
+        <div class="middle">
+            <div class="text"> News; this is real news! </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

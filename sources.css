@@ -1,0 +1,77 @@
+/* Eileen Kuang
+December 4, 2023
+Misinformation Website: Sources
+Website that walks the user through what fake news is & what they can do about it  */
+
+html{
+
+  height: 100%;
+  width: 100%;
+
+}
+
+h1{
+  text-align: center;
+  font-size: 50pt;
+  line-height: 50pt;
+  color: #ffffff;
+  font-family: 'Electrolize', sans-serif;
+}
+
+p{
+  text-align: center;
+  font-size: 18pt;
+  line-height: 150%;
+  color: #dad7d7;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h2{
+  text-align: center;
+  font-size: 22pt;
+  line-height: 150%;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body {
+  background-color: #32373a;
+}
+
+/* nav background colour */
+.topnav {
+  background-color: #4f4f4f;
+  overflow: hidden;
+}
+
+/* style */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* hovering color change */
+.topnav a:hover {
+  background-color: #8c0808;
+  color: white;
+}
+
+/* active color change */
+.topnav a.active {
+  background-color: #d11500;
+  color: white;
+}
+
+.chartContainer{
+  object-position: center;
+}

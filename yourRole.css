@@ -1,0 +1,69 @@
+/* Eileen Kuang
+December 4, 2023
+Misinformation Website: Your Role
+Website that walks the user through what fake news is & what they can do about it  */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #32373a;
+  color: #e7e4e4;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* common properties of h1, h2 */
+h1, h2 {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Electrolize', sans-serif;
+}
+
+h1 {
+  font-size: 50pt;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 40pt;
+  line-height: 1.2;
+  margin: 15px 0;
+}
+
+p, article {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.topnav {
+  background-color: #4f4f4f;
+  overflow: hidden;
+}
+
+/* nav bar text */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* hover color of nav bar */
+.topnav a:hover {
+  background-color: #8c0808;
+  color: white;
+}
+
+/* active color of nav bar */
+.topnav a.active {
+  background-color: #d11500;
+  color: white;
+}

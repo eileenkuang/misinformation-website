@@ -1,0 +1,119 @@
+<!-- Eileen Kuang
+December 4, 2023
+Misinformation Website: Homepage
+Website that walks the user through what fake news is & what they can do about it -->
+
+<!DOCTYPE html>
+<html>
+
+<!--javascript chart animation-->  
+<script>
+  
+  window.onload = function () {
+    
+  var chart = new CanvasJS.Chart("chartContainer", {
+    animationEnabled: true,
+    
+    theme: "dark2", // color themes
+    title: {
+      text: "Highest Global Exposure to Fake News"
+    },
+    axisY: {
+      title: "Population (%)",
+      suffix: "%"
+    },
+    axisX: {
+      title: "Countries"
+    },
+    data: [{
+      type: "column",
+      yValueFormatString: "#,##0.0#\"%\"",
+      dataPoints: [
+        { label: "Turkey", y: 49 },	
+        { label: "Mexico", y: 43 },	
+        { label: "Brazil", y: 35 },
+        { label: "United States", y: 31 },	
+        { label: "Australia", y: 25 },
+        { label: "Canada", y: 19 },
+        { label: "Japan", y: 17 },
+        { label: "Germany", y: 16 }
+
+      ]
+    }]
+  });
+  chart.render();
+  }
+
+</script>    
+
+<head> 
+  <title>What is Misinformation?</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+  <!--  Google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Electrolize">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  
+  <style>
+    body {
+      font-family: 'Electrolize', sans-serif;
+      font-family: 'Raleway', sans-serif;
+    } 
+  </style>
+</head>
+
+<body>
+  
+  <!-- Navigation bar -->
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="yourRole.html">Your Role</a>
+    <a href="newsOrLose.html">News or Lose!</a>
+    <a href="sources.html">Sources</a>
+  </div>
+  
+  <h1> 
+    <br>
+    <br>
+    Misinformation: <br> What is it?
+    <br>
+    <br>
+    <br>
+  </h1>
+
+  <!-- Graph -->
+  <div id="chartContainer" style="height: 350px; width: 100%"></div>
+  <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+  
+  <h2>
+    <br>
+    Do you think you believe fake news?
+    <br>
+  </h2>
+
+  <!-- Paragraph about Fake News -->
+  <p>
+    Those who believe they "can't" fall for fake news are usually the most susceptible towards the sensational lies. Fake news is a form of misinformation and its spread has only exponentially proliferated since the rise of technology. 
+    <br>
+    <br>
+    At times, fake news can be spread as disinformation. This is caused when malicious actors purposefully create and share lies. Political incentives, bigotry, and click-bait revenue are all reasons why fake news is generated and shared. Social media algorithms like TikTok, Facebook, Instagram, and Twitter have been shown to be biased towards promoting fake news posts. The more sensational, the more clicks.
+    <br>
+  </p>
+
+  <h2>
+    19% of Canadians say that they've been exposed to completely made-up news in the last week. 
+    <br>
+    And that's only the Canadians who recognize that the news is fake!
+  </h2>
+  <p>
+    <br>
+    Now that we understand what fake news is, explore to learn how you can combat and recognize fake news!
+    <br>
+    <br>
+  </p>
+  
+</body>
+
+</html>
